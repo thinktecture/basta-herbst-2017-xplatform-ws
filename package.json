@@ -31,7 +31,6 @@
     "prod-mobile-ios": "npm run build-prod && npm run package-mobile-ios",
     "prod-mobile-android": "npm run build-prod && npm run package-mobile-android",
     "prod-mobile-windows": "npm run build-prod && npm run package-mobile-windows"
-
   },
   "private": true,
   "dependencies": {
@@ -52,7 +51,7 @@
     "include-media": "1.4.9"
   },
   "devDependencies": {
-    "@angular/cli": "1.0.1",
+    "@angular/cli": "1.4.2",
     "@angular/compiler-cli": "^4.0.0",
     "@types/jasmine": "2.5.38",
     "@types/cordova": "0.0.34",
