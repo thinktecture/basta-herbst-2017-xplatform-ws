@@ -2,15 +2,13 @@ import {Injectable} from '@angular/core';
 import {Http} from '@angular/http';
 import {Observable} from 'rxjs/Rx';
 import {StarWarsPeople} from '../models/starWarsPeople';
-import {WindowRef} from './windowRef';
 import {StarWarsPlanet} from '../models/starWarsPlanet';
 
 @Injectable()
 export class StarWarsService {
-  private readonly _baseUrl: string;
+  private readonly _baseUrl = 'https://swapi.co/api/';
 
-  constructor(private _http: Http, windowRef: WindowRef) {
-    this._baseUrl = (windowRef.nativeWindow.location.href.startsWith('https') ? 'https' : 'http') + '://swapi.co/api/';
+  constructor(private _http: Http) {
   }
 
   public listPeople(page: number = 1): Observable<StarWarsPeople[]> {
