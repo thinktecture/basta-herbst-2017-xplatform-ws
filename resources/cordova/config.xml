@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.thinktecture.ddf.sample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>DDF Sample</name>
+<widget id="com.thinktecture.basta.sample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>BASTA Sample</name>
   <description>
     A sample application for the cross-platform workshop at .NET Day Franken.
   </description>
